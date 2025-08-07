@@ -15,7 +15,7 @@
   }
   
   h1 {
-    margin-top: 15%;
+    margin-top: 10%;
     text-align: center;
     color: #050315;
   }
@@ -23,7 +23,7 @@
   #galeria {
     margin-top: 20px;
     width: 50%;
-    height: 50%;
+    height: 60%;
     overflow: hidden; 
     position: relative; 
   }

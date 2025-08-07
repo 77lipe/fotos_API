@@ -3,7 +3,7 @@
 const galeriaSlider = document.getElementById('galeria-slide')
 
 async function chamarFotos() {
-  const response = await fetch("http://localhost:3000/fotos")
+  const response = await fetch("https://mockapi-3m2c.onrender.com/fotos")
   const dados = await response.json()
   return dados || console.error("Erro ao acessar API")
 }
